@@ -1072,6 +1072,7 @@ namespace projetointegrador
             this.txtConfirmeNovaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConfirmeNovaSenha.Location = new System.Drawing.Point(35, 12);
             this.txtConfirmeNovaSenha.Name = "txtConfirmeNovaSenha";
+            this.txtConfirmeNovaSenha.PasswordChar = '*';
             this.txtConfirmeNovaSenha.Size = new System.Drawing.Size(207, 14);
             this.txtConfirmeNovaSenha.TabIndex = 4;
             this.txtConfirmeNovaSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtConfirmeNovaSenha_KeyDown);
@@ -1087,6 +1088,7 @@ namespace projetointegrador
             this.linkLabel3.TabIndex = 5;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Deseja logar?";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // btnConfirmarRecuperacao
             // 
@@ -1145,6 +1147,7 @@ namespace projetointegrador
             this.txtNovaSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNovaSenha.Location = new System.Drawing.Point(36, 13);
             this.txtNovaSenha.Name = "txtNovaSenha";
+            this.txtNovaSenha.PasswordChar = '*';
             this.txtNovaSenha.Size = new System.Drawing.Size(207, 14);
             this.txtNovaSenha.TabIndex = 5;
             this.txtNovaSenha.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNovaSenha_KeyDown);

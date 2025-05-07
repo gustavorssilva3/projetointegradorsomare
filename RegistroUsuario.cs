@@ -415,6 +415,12 @@ namespace projetointegrador
             panelRegistro.Visible = false;
         }
 
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            panelLogin.Visible = true;
+            panelRecConta.Visible = false;
+        }
+
         #endregion
 
         #region Recuperação de Senha
@@ -721,6 +727,8 @@ namespace projetointegrador
         }
 
         #endregion
+
+       
     }
 }
 
